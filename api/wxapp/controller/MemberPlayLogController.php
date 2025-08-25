@@ -14,8 +14,8 @@ namespace api\wxapp\controller;
  *     "create_time"             =>"2025-05-15 16:55:42",
  *     "version"                 =>"1.0",
  *     "use"                     => new \api\wxapp\controller\MemberPlayLogController();
- *     "test_environment"        =>"http://pw214.ikun:9090/api/wxapp/member_play_log/index",
- *     "official_environment"    =>"https://pw214.wxselling.com/api/wxapp/member_play_log/index",
+ *     "test_environment"        =>"http://pw230.ikun:9090/api/wxapp/member_play_log/index",
+ *     "official_environment"    =>"https://pw230.wxselling.com/api/wxapp/member_play_log/index",
  * )
  */
 
@@ -43,7 +43,7 @@ class MemberPlayLogController extends AuthController
     /**
      * 默认接口
      * /api/wxapp/member_play_log/index
-     * https://pw214.wxselling.com/api/wxapp/member_play_log/index
+     * https://pw230.wxselling.com/api/wxapp/member_play_log/index
      */
     public function index()
     {
@@ -263,8 +263,8 @@ class MemberPlayLogController extends AuthController
      *     @OA\Response(response="default", description="An example resource")
      * )
      *
-     *   test_environment: http://pw214.ikun:9090/api/wxapp/member_play_log/add_play
-     *   official_environment: https://pw214.wxselling.com/api/wxapp/member_play_log/add_play
+     *   test_environment: http://pw230.ikun:9090/api/wxapp/member_play_log/add_play
+     *   official_environment: https://pw230.wxselling.com/api/wxapp/member_play_log/add_play
      *   api:  /wxapp/member_play_log/add_play
      *   remark_name: 陪玩注册 编辑&添加
      *
