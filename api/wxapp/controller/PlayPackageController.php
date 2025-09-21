@@ -237,7 +237,7 @@ class PlayPackageController extends AuthController
         $result[]                = ['name' => '压榨打手', 'key' => 'tag5', 'list' => $PlayPackageInit->get_list(array_merge($where, $map5), $params)];
         $map                     = [];
         $map[]                   = ['tag1', '=', 1];
-        $result[]                = ['name' => '必出T7单', 'key' => 'tag1', 'list' => $PlayPackageInit->get_list(array_merge($where, $map), $params)];
+        $result[]                = ['name' => '正确赚钱单', 'key' => 'tag1', 'list' => $PlayPackageInit->get_list(array_merge($where, $map), $params)];
         $map2                    = [];
         $map2[]                  = ['tag2', '=', 1];
         $result[]                = ['name' => '必出大金单', 'key' => 'tag2', 'list' => $PlayPackageInit->get_list(array_merge($where, $map2), $params)];
